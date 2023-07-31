@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    color: rgb(193, 240, 240);
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 10px 10px 30px rgb(126, 128, 0), -10px -10px 30px rgb(202, 221, 27);
+    font-style: italic;
+}
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: grey;
+    margin: 10px;
+    transition: background-color 2s;
+    border-radius: 12px;
+    box-shadow: 0 0 10px white;
+    border: 1px solid white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(29, 27, 27, 0.63);
+    padding-top: 100px;
+}
+
+.box:hover {
+    transition: background-color 0s;
+}
+.box:nth-child(8n):hover {
+    background-color: rgb(14, 221, 14);
+}
+
+.box:nth-child(8n + 1):hover {
+    background-color: rgb(186, 212, 37);
+}
+
+.box:nth-child(8n + 2):hover {
+    background-color: rgb(27, 55, 216);
+}
+
+.box:nth-child(8n + 3):hover {
+    background-color: rgb(226, 23, 101);
+}
+
+.box:nth-child(8n + 4):hover {
+    background-color: rgb(221, 66, 226);
+}
+
+.box:nth-child(8n + 5):hover {
+    background-color: rgb(207, 216, 87);
+}
+
+.box:nth-child(8n + 6):hover {
+    background-color: rgb(235, 207, 48);
+}
+
+.box:nth-child(8n + 7):hover {
+    background-color: rgb(31, 230, 203);
+}
